@@ -11,7 +11,7 @@ def get_gold_price():
     """获取黄金实时价格（元/克）和昨日收盘价"""
     try:
         # 1. 调用Alpha Vantage获取黄金兑人民币（美元/盎司 → 人民币/盎司）
-        api_url = f"https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=XAU&to_currency=CNY&apikey={ALPHA_VANTAGE_API_KEY}"
+        api_url = f"https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=XAU&apikey={ALPHA_VANTAGE_API_KEY}"
         response = requests.get(api_url, timeout=15)
         data = response.json()
         
