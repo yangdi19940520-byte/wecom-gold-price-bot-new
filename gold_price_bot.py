@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 
 # ======================== 👇👇👇 替换成你的企业微信Webhook 👇👇👇 ========================
-WECOM_WEBHOOK = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=你的机器人完整Webhook地址"
+WECOM_WEBHOOK = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=9022a284-f0a5-466d-aecc-56e01d333ef7"
 # ======================== 👆👆👆 替换结束 👆👆👆 ========================
 
 def main():
