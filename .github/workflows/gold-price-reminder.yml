@@ -1,0 +1,20 @@
+# 简化版YAML：仅调用Python脚本，零格式错误
+name: GoldPriceReminder
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'
+  workflow_dispatch:
+
+jobs:
+  send-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 下载代码到服务器
+        uses: actions/checkout@v4
+      
+      - name: 安装Python依赖
+        run: pip install requests
+      
+      - name: 执行金价提醒脚本
+        run: python gold_price_bot.py
