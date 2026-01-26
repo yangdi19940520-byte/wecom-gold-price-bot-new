@@ -8,7 +8,7 @@ WECOM_WEBHOOK = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=9022a284-f
 # ======================== 👆👆👆 替换结束 👆👆👆 ========================
 
 GOLD_TYPE = "au9999"
-PRICE_THRESHOLD = 5
+PRICE_THRESHOLD = 0
 
 def main():
     try:
