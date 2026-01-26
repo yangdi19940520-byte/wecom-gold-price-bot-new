@@ -6,7 +6,7 @@ from datetime import datetime
 WECOM_WEBHOOK = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=9022a284-f0a5-466d-aecc-56e01d333ef7"
 # ======================== 👆👆👆 替换结束 👆👆👆 ========================
 
-PRICE_THRESHOLD = 5
+PRICE_THRESHOLD = 0
 
 def main():
     try:
