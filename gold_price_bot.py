@@ -3,7 +3,7 @@ from datetime import datetime
 
 # ======================== 👇👇👇 请修改这3个参数 👇👇👇 ========================
 WECOM_WEBHOOK = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=9022a284-f0a5-466d-aecc-56e01d333ef7"
-ALPHA_VANTAGE_API_KEY = "3AV1ZIWRB84HA9HD"  # 注册后获取的免费Key
+ALPHA_VANTAGE_API_KEY = "27d14a5449ac5d790150b6b8a76d22ec"  # 注册后获取的免费Key
 PRICE_THRESHOLD = 0.01  # 涨跌阈值（超过5元发提醒，可自定义）
 # ======================== 👆👆👆 修改结束 👆👆👆 ========================
 
